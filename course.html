@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/448a52c93e.js" crossorigin="anonymous"></script>
+    <title>education hub</title>
+    <link  rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    
+</head>
+<body>
+    <!-- --------navigation bar----------------- -->
+    <nav>
+        <img src="img/logo.png"  alt="">
+        <div class="navigation">
+        <ul id="hellomenu">
+            <i class="fa-solid fa-xmark" id="close-menu-btn" onclick="closemenu()"></i>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="blog.html" >Blog</a></li>
+            <li><a href="course.html" class="active">Course</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img src="img/list.png" alt=""  id="menu-btn" onclick="showmenu()">
+    </div>
+    </nav>
+    <!-- -----------navigation end here-------------------- -->
+    <!-- --------------------home section start here ------------------- -->
+    <section id="about-home">
+        <h2> Courses.. </h2>
+        
+    </section>
+    <!-- --------------------home section end here ------------------- -->
+   <!-- courses section is start here -->
+   <section id="course">
+    <h1>Our Popular Courses</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, delectus?</p>
+    <div style="text-align: center; ">
+        <input 
+        type="text" 
+        id="searchValue"
+         onkeyup="searchFilter()"
+          style="width: 100%; padding: 20px 30px; margin: 10px 20px ; font-weight: 700; font-size: 18px; border: none; outline: none; border-radius: 3px; background-color: bisque;"
+          placeholder="search here trending courses"
+          >
+    </div>
+    
+    <div class="courses">
+       <div class="course-box">
+           <img src="img/c1.jpg" alt="">
+           <div class="details">
+               <span>Updated 26/1/2023</span>
+               <h6>Javascript Beginners Course</h6>
+               <div class="star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <span>(499)</span>
+               </div>
+           </div>
+           <div class="cost">
+               &#8377;4999
+           </div>
+       </div>
+       <div class="course-box">
+           <img src="img/c2.jpg" alt="">
+           <div class="details">
+               <span>Updated 26/1/2023</span>
+               <h6>MongoDB Beginners Course</h6>
+               <div class="star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <span>(499)</span>
+               </div>
+           </div>
+           <div class="cost">
+               &#8377;3999
+           </div>
+       </div>
+       <div class="course-box">
+           <img src="img/c3.jpg" alt="">
+           <div class="details">
+               <span>Updated 26/1/2023</span>
+               <h6>Python Beginners Course</h6>
+               <div class="star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <span>(499)</span>
+               </div>
+           </div>
+           <div class="cost">
+               &#8377;5999
+           </div>
+       </div>
+       <div class="course-box">
+           <img src="img/download.jpg" alt="">
+           <div class="details">
+               <span>Updated 26/1/2023</span>
+               <h6>ReactJS Beginners Course</h6>
+               <div class="star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <span>(499)</span>
+               </div>
+           </div>
+           <div class="cost">
+               &#8377;1999
+           </div>
+       </div>
+       <div class="course-box">
+           <img src="img/photo-1523289333742-be1143f6b766.avif" alt="">
+           <div class="details">
+               <span>Updated 26/1/2023</span>
+               <h6>Angular Beginners Course</h6>
+               <div class="star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <span>(499)</span>
+               </div>
+           </div>
+           <div class="cost">
+               &#8377;3999
+           </div>
+       </div>
+       <div class="course-box">
+           <img src="img/photo-1552664730-d307ca884978.avif" alt="">
+           <div class="details">
+               <span>Updated 26/1/2023</span>
+               <h6>NODE.JS Beginners Course</h6>
+               <div class="star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <span>(499)</span>
+               </div>
+           </div>
+           <div class="cost">
+               &#8377;4999
+           </div>
+       </div>
+       <div class="course-box">
+        <img src="img/b3.jpg" alt="">
+        <div class="details">
+            <span>Updated 26/1/2023</span>
+            <h6>Dejango Beginners Course</h6>
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(499)</span>
+            </div>
+        </div>
+        <div class="cost">
+            &#8377;4999
+        </div>
+    </div>
+    <div class="course-box">
+        <img src="img/mern.jpg" alt="">
+        <div class="details">
+            <span>Updated 26/1/2023</span>
+            <h6>Mern Beginners Course</h6>
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(499)</span>
+            </div>
+        </div>
+        <div class="cost">
+            &#8377;4999
+        </div>
+    </div>
+    <div class="course-box">
+        <img src="img/c2.jpg" alt="">
+        <div class="details">
+            <span>Updated 26/1/2023</span>
+            <h6>Advance CSS Course</h6>
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(499)</span>
+            </div>
+        </div>
+        <div class="cost">
+            &#8377;4999
+        </div>
+    </div>
+    <div class="course-box">
+        <img src="img/c5.jpg" alt="">
+        <div class="details">
+            <span>Updated 26/1/2023</span>
+            <h6>vueJs course</h6>
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(499)</span>
+            </div>
+        </div>
+        <div class="cost">
+            &#8377;4999
+        </div>
+    </div>
+    
+    
+    </div>
+
+</section>
+
+
+
+    
+
+ 
+  
+  <!-- --------------footer start from here----------- -->
+  <!-- return -to-top -->
+  <div class="arrow" onclick="returnTop()"
+  >
+    <img src="img/up-arrow.png" alt="">
+  </div>
+  <footer>
+    <div class="footer-col">
+        <h3>Top Products</h3> 
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li> 
+        <li>Manage Repulation </li> 
+    </div>
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+        <li>Investor Relations</li>
+        <li>Terms of Service</li>  
+    </div>
+    <div class="footer-col">
+        <h3>Features</h3>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li> 
+        <li>Manage Repulation </li>  
+         
+    </div>
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>you can trust us. we only send promo offers,</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Email address">
+            <a href="" >subscribe</a>
+        </div>
+
+    </div>
+    <div class="footer-col">
+        <div class="copyright">
+            <p>copyright &#169; 2023|| All right reserved for techEduca</p>
+            <div class="pro-link">
+                <i class="fa-brands fa-square-facebook"></i> 
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-git"></i>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+  <!-- -------------footer end here------------- -->
+ <script>
+    function showmenu(){
+        document.getElementById("hellomenu").classList.add("menuactive")
+
+    }
+    function closemenu(){
+        document.getElementById("hellomenu").classList.remove("menuactive")
+
+    }
+
+    window.onscroll= function(){
+          arrowicon();
+    }
+
+    function arrowicon(){
+       if(document.documentElement.scrollTop>20||document.body.scrollTop>20){
+        document.querySelector(".arrow").style.display = "block";
+       } else{
+        document.querySelector(".arrow").style.display = "none";
+
+       }
+    }
+    function returnTop(){
+        document.documentElement.scrollTop = "0"
+    }
+
+    $(window).scroll(function(){
+        if(this.scrollY>20){
+            $("nav").addClass("backc")
+        }else{
+            $("nav").removeClass("backc")
+        }
+    })
+
+    // for rendering the page ok...
+    let a = document.querySelectorAll(".course-box");
+    console.log(a);
+    a.forEach((e)=>{
+       
+        e.addEventListener('click',function(){
+            window.location.href = "course-detail.html"
+        })
+        
+    })
+
+
+    function searchFilter(){
+        let searchValue = document.getElementById("searchValue").value.toUpperCase();
+
+        let course = document.getElementsByClassName("course-box")
+        Array.from(course).forEach((newcourse)=>{
+            let see = newcourse;
+            let p = newcourse.getElementsByTagName("h6")[0].innerText;
+            if(p.toUpperCase().indexOf(searchValue)>-1){
+                see.style.display =""
+            }else{
+                see.style.display = "none"
+            }
+           
+        })
+    }
+   
+ </script>
+
+</body>
+</html>

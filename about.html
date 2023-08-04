@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/448a52c93e.js" crossorigin="anonymous"></script>
+    <title>education hub</title>
+    <link  rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    
+</head>
+<body>
+    <!-- --------navigation bar----------------- -->
+    <nav>
+        <img src="img/logo.png"  alt="">
+        <div class="navigation">
+        <ul id="hellomenu">
+            <i class="fa-solid fa-xmark" id="close-menu-btn" onclick="closemenu()"></i>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img src="img/list.png" alt=""  id="menu-btn" onclick="showmenu()">
+    </div>
+    </nav>
+    <!-- -----------navigation end here-------------------- -->
+    <!-- --------------------home section start here ------------------- -->
+    <section id="about-home">
+        <h2>About techEduca </h2>
+        
+    </section>
+    <!-- --------------------home section end here ------------------- -->
+    <!-- ---------------about conatadiner----------- -->
+    <section id="about-container">
+        <div class="about-img">
+            <img src="img/a.png" alt="">
+        </div>
+        <div class="about-text">
+        <h2>Welcome to TechEduca , Enhance your skill with best online courses</h2>
+        <p>You can start and finish one of these popular courses in under a day - for free! check out the course below  take a course for free</p>
+        <div class="about-fe">
+            <img src="img/fe1.png" alt="">
+            <div class="about-fe-text">
+                <h5>400+ Courses</h5>
+                <p>You can start and finish one of these course for free in our site ok..</p>
+            </div>
+        </div>
+        <div class="about-fe">
+            <img src="img/fe2.png" alt="">
+            <div class="about-fe-text">
+                <h5>400+ Courses</h5>
+                <p>You can start and finish one of these course for free in our site ok..</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- ---------------about conatadiner end here----------- -->
+    <!-- ------------feature  are start here -->
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam.</p>
+        <div class="fea-con">
+            <div class="fea-box">
+                <img src="img/graduation.png" alt="">
+                <h3>Scholarship Facility</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            </div>
+            <div class="fea-box">
+                <img src="img/certificate.png" alt="">
+                <h3>Global Certificate </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            </div>
+            <div class="fea-box">
+                <img src="img/online-course.png" alt="">
+                <h3>Online Courses</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- ------------feature  are end here -->
+    <!-- trust section start here -->
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Replenish man have thing gatherning lights yeilding shall you</p>
+        <div class="trust-box">
+            <img src="img/trust (1).png" alt="">
+            <img src="img/trust (2).png" alt="">
+            <img src="img/trust (3).png" alt="">
+            <img src="img/trust (4).png" alt="">
+            <img src="img/trust (5).png" alt="">
+            <img src="img/trust (6).png" alt="">
+        </div>
+    </section>
+
+
+    
+
+ 
+  
+  <!-- --------------footer start from here----------- -->
+  <!-- return -to-top -->
+  <div class="arrow" onclick="returnTop()"
+  >
+    <img src="img/up-arrow.png" alt="">
+  </div>
+  <footer>
+    <div class="footer-col">
+        <h3>Top Products</h3> 
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li> 
+        <li>Manage Repulation </li> 
+    </div>
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+        <li>Investor Relations</li>
+        <li>Terms of Service</li>  
+    </div>
+    <div class="footer-col">
+        <h3>Features</h3>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li> 
+        <li>Manage Repulation </li>  
+         
+    </div>
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>you can trust us. we only send promo offers,</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Email address">
+            <a href="" >subscribe</a>
+        </div>
+
+    </div>
+    <div class="footer-col">
+        <div class="copyright">
+            <p>copyright &#169; 2023|| All right reserved for techEduca</p>
+            <div class="pro-link">
+                <i class="fa-brands fa-square-facebook"></i> 
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-git"></i>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+  <!-- -------------footer end here------------- -->
+ <script>
+    function showmenu(){
+        document.getElementById("hellomenu").classList.add("menuactive")
+
+    }
+    function closemenu(){
+        document.getElementById("hellomenu").classList.remove("menuactive")
+
+    }
+
+    window.onscroll= function(){
+          arrowicon();
+    }
+
+    function arrowicon(){
+       if(document.documentElement.scrollTop>20||document.body.scrollTop>20){
+        document.querySelector(".arrow").style.display = "block";
+       } else{
+        document.querySelector(".arrow").style.display = "none";
+
+       }
+    }
+    function returnTop(){
+        document.documentElement.scrollTop = "0"
+    }
+
+    $(window).scroll(function(){
+        if(this.scrollY>20){
+            $("nav").addClass("backc")
+        }else{
+            $("nav").removeClass("backc")
+        }
+    })
+ </script>
+
+</body>
+</html>
